@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+style="@style/Widget.AlertMe.AppWidget.Container"
+android:theme="@style/AppTheme.AppWidgetContainer"
+android:id="@+id/widget_layout"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+    >
+<!--    tools:layout_marginTop="100dp"-->
+
+<!--<include-->
+<!--    layout="@layout/widget_header"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    />-->
+
+    <GridView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:horizontalSpacing="4dp"
+        android:numColumns="2"
+        android:scrollbars="none"
+        tools:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/no_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No Stocks!"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+</LinearLayout>
+
+    <!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    style="@style/Widget.AlertMe.AppWidget.Container"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="match_parent"-->
+    <!--    android:theme="@style/AppTheme.AppWidgetContainer">-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/appwidget_text"-->
+    <!--        style="@style/Widget.AlertMe.AppWidget.InnerView"-->
+    <!--        android:layout_width="387dp"-->
+    <!--        android:layout_height="592dp"-->
+    <!--        android:layout_centerInParent="true"-->
+    <!--        android:layout_marginStart="8dp"-->
+    <!--        android:layout_marginTop="8dp"-->
+    <!--        android:layout_marginEnd="8dp"-->
+    <!--        android:layout_marginBottom="8dp"-->
+    <!--        android:contentDescription="@string/appwidget_text"-->
+    <!--        android:text="@string/appwidget_text"-->
+    <!--        android:textColorLink="#DD1111"-->
+    <!--        android:textSize="24sp"-->
+    <!--        android:textStyle="bold" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/button"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="click" />-->
+    <!--</RelativeLayout>-->

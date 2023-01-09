@@ -1,0 +1,8 @@
+{
+  "name": "AlertMe",
+  "displayName": "AlertMe",
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-1617381977802071~3512625906",
+    "ios_app_id": "ca-app-pub-1617381977802071~3512625906"
+  }
+}
